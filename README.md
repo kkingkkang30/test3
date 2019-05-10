@@ -1,3 +1,4 @@
+```js
 Parse.Cloud.define('hello', (req) => {
   return 'Hi';
 });
@@ -84,3 +85,4 @@ Parse.Cloud.define('purchaseItem', async (req) => {
     throw error;
   }
 });
+```
